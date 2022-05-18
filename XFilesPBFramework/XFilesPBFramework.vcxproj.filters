@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\AddyEngine">
+      <UniqueIdentifier>{fcfb2554-acf4-4082-8225-d048151c36e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FeatureEngine">
+      <UniqueIdentifier>{72ddb347-4751-4162-8ea2-e2c944162600}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Direct3D">
+      <UniqueIdentifier>{bc747231-d3f4-4ae1-8a38-0eddb591844b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ESPEngine">
+      <UniqueIdentifier>{fb94c7ad-5948-4a44-872d-126985391f62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\HackEngine">
+      <UniqueIdentifier>{58e364ff-f984-41c4-92fc-c984fd7f33aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameClasses">
+      <UniqueIdentifier>{b867734b-31c8-45db-a0a1-51d5844bb2e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\XFilesFramework">
+      <UniqueIdentifier>{1d962dcf-6a6d-447a-b717-b06db9f5ddaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\XFilesFramework\Headers">
+      <UniqueIdentifier>{c4545165-c729-45cf-8e36-fd4166e611e2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="base64.cpp">
+      <Filter>Header Files\XFilesFramework\Headers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalDefines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Hook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RawTextures.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Textures.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XorStr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AddyFunctions.h">
+      <Filter>Header Files\AddyEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="AddyLogger.h">
+      <Filter>Header Files\AddyEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Header Files\Direct3D</Filter>
+    </ClInclude>
+    <ClInclude Include="directInput.h">
+      <Filter>Header Files\Direct3D</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawingFunctions.h">
+      <Filter>Header Files\Direct3D</Filter>
+    </ClInclude>
+    <ClInclude Include="ESPFunctions.h">
+      <Filter>Header Files\ESPEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="ESPLoop.h">
+      <Filter>Header Files\ESPEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="ESPTools.h">
+      <Filter>Header Files\ESPEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="HackDefines.h">
+      <Filter>Header Files\HackEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="HackFunctions.h">
+      <Filter>Header Files\HackEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="HackLoop.h">
+      <Filter>Header Files\HackEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClasses.h">
+      <Filter>Header Files\GameClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="XFilesFrameworkSdk.h">
+      <Filter>Header Files\XFilesFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatureStruct.h">
+      <Filter>Header Files\FeatureEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D9Include.h">
+      <Filter>Header Files\Direct3D</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DHack.h">
+      <Filter>Header Files\Direct3D</Filter>
+    </ClInclude>
+    <ClInclude Include="WinInet.h">
+      <Filter>Header Files\XFilesFramework\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="base64.h">
+      <Filter>Header Files\XFilesFramework\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="NetHTTP.h">
+      <Filter>Header Files\XFilesFramework\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessInfo.h">
+      <Filter>Header Files\XFilesFramework\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GarenaPatch.h">
+      <Filter>Header Files\XFilesFramework\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="AddyStruct.h">
+      <Filter>Header Files\AddyEngine</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
